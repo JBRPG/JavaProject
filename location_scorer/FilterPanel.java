@@ -5,8 +5,9 @@ import java.awt.*;
 
 public class FilterPanel extends JPanel{
 
-    private JComboBox dropDownState;
-    private JButton refreshButton;
+    private JComboBox<String> dropDownState = null;
+    private JButton refreshButton = null;
+
     FilterPanel(){
         setLayout(new BoxLayout(this, BoxLayout.LINE_AXIS));
 
@@ -19,9 +20,6 @@ public class FilterPanel extends JPanel{
         repaint();
         setVisible(true);
 
-
-
-
     }
-    
+
 }

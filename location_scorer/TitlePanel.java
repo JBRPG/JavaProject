@@ -13,9 +13,9 @@ public class TitlePanel extends JPanel{
         companyTitle = new JLabel("Time Keep Co");
         productTitle = new JLabel("Location Score Calculator");
 
-        add(dropDownState);
+        add(companyTitle);
         add(Box.createHorizontalGlue());
-        add(refreshButton);
+        add(productTitle);
         repaint();
         setVisible(true);
     }

@@ -16,7 +16,7 @@ This file will deliberately be used to test the GUI elements
 before integrating them with the 
 */
 
-public class Main {
+public class LocationScoreApp {
     public static void main(String[] args) {
         System.out.println("Get started on the application");
 
